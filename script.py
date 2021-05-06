@@ -1,13 +1,18 @@
-# Versão da Aplicação - versão 1.0
-    #Criação de menus
+# Versão da Aplicação - versão 2.0
+    #Aprimorando Menus
 
-print('_'*25)
+print('-'*25)
 print('SIMPLE CALCULATOR ON CLI')
 print('_'*25)
-print('''
-[1] SOMA 
-[2] SUBTRAÇÃO
-[3] MULTIPLICAÇÃO
-[4] DIVISÃO
-''')
-
+while True:
+    print('''
+    [1] SOMA 
+    [2] SUBTRAÇÃO
+    [3] MULTIPLICAÇÃO
+    [4] DIVISÃO
+    [0] SAIR
+    ''')
+    escolha = int(input('Informe a escolha desejada: '))
+    if escolha == 0:
+        break
+print('OBRIGADO POR TESTAR O BETA! VOLTE SEMPRE!')
