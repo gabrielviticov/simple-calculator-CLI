@@ -31,7 +31,7 @@ while True:
     elif escolha == 3:
         print(f'{num1} x {num2} = {num1*num2}')
     elif escolha == 4:
-        print(f'{num1} / {num2} = {num1/num2}')
+        print(f'{num1} / {num2} = {num1/num2:.1f}')
     elif escolha == 5:
         num1 = int(input('Primeiro valor: '))
         num2 = int(input('Segundo valor: '))
