@@ -1,10 +1,10 @@
-# Versão da Aplicação - versão 4.0
-    #A base da aplicação
+# Versão da Aplicação - Stable 1.0
+    #A base da aplicação está estabilizada. Recursos novos em BREVE.
 
 num1 = int(input('Primeiro valor: '))
 num2 = int(input('Segundo valor: '))
 
-print('-'*25)
+print('_'*25)
 print('SIMPLE CALCULATOR ON CLI')
 print('_'*25)
 
