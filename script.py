@@ -1,9 +1,15 @@
-# Versão da Aplicação - Stable 1.0
-    #A base da aplicação está estabilizada. Recursos novos em BREVE.
+# Estruturando a aplicação
 
+válido = False
 num1 = int(input('Primeiro valor: '))
 num2 = int(input('Segundo valor: '))
-
+if num1 >= 0 and num2 >= 0:
+    válido = True
+while not válido:
+    num1 = int(input('Número inválido. Digite o primeiro valor positivo: '))
+    num2 = int(input('Agora digite o segundo valor positivo: '))
+    if num1 >= 0 and num2 >= 0:
+        válido = True
 print('_'*25)
 print('SIMPLE CALCULATOR ON CLI')
 print('_'*25)
@@ -35,4 +41,6 @@ while True:
     elif escolha == 5:
         num1 = int(input('Primeiro valor: '))
         num2 = int(input('Segundo valor: '))
+    else:
+        print('OPÇÃO INVÁLIDA. SELECIONE UMA OPÇÃO VÁLIDA')
 print('OBRIGADO POR TESTAR A APLICAÇÃO! VOLTE SEMPRE!')
