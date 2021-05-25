@@ -14,7 +14,8 @@ while True:
     [2] SUBTRAÇÃO
     [3] MULTIPLICAÇÃO
     [4] DIVISÃO
-    [5] NOVOS VALORES
+    [5] EXPONÊNCIAÇÃO
+    [6] NOVOS VALORES
     [0] SAIR
     ''')
     escolha = int(input('Informe a escolha desejada: '))
@@ -33,6 +34,8 @@ while True:
     elif escolha == 4:
         print(f'{num1} / {num2} = {num1/num2:.1f}')
     elif escolha == 5:
+        print(f'{num1} ** {num2} = {num1**num2}')
+    elif escolha == 6:
         num1 = int(input('Primeiro valor: '))
         num2 = int(input('Segundo valor: '))
 print('OBRIGADO POR TESTAR A APLICAÇÃO! VOLTE SEMPRE!')
