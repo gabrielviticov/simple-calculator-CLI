@@ -1,5 +1,4 @@
-# Versão da Aplicação - Stable 1.0
-    #A base da aplicação está estabilizada. Recursos novos em BREVE.
+# Implementando uma nova funcionalidade. 
 
 num1 = int(input('Primeiro valor: '))
 num2 = int(input('Segundo valor: '))
